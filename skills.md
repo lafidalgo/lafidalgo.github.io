@@ -3,36 +3,36 @@ layout: page
 title: Skills
 ---
 
-## Programming Languages
+## 💻 Programming Languages
 
-- **Python | C | C++**
+- Python \| C \| C++
 
-## AI & ML Tools
+## 🧠 AI & ML Tools
 
-- **Pandas | Numpy | Scikit-learn | MLflow | LangChain | LLamaIndex | CrewAi**
+- Pandas \| Numpy \| Scikit-learn \| MLflow \| LangChain \| LLamaIndex \| CrewAi
 
-## Cloud Platforms
+## ☁️ Cloud Platforms
 
-- **AWS (S3, Lambda, ECR, EKS, SageMaker, DynamoDB)**  
-- **GCP (Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, GKE)**  
-- **Azure (Blob Storage, Functions)**
+- AWS (S3, Lambda, ECR, EKS, SageMaker, DynamoDB)  
+- GCP (Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, GKE)  
+- Azure (Blob Storage, Functions)
 
-## Web Frameworks
+## 🌐 Web Frameworks
 
-- **FastAPI | Flask | Streamlit**
+- FastAPI \| Flask \| Streamlit
 
-## Data Visualization
+## 📊 Data Visualization
 
-- **Matplotlib | Plotly**
+- Matplotlib \| Plotly
 
-## DevOps & Infrastructure
+## 🔧 DevOps & Infrastructure
 
-- **Docker | Terraform | Kubernetes | CI/CD | GitHub Actions**
+- Docker \| Terraform \| Kubernetes \| CI/CD \| GitHub Actions
 
-## Management
+## 🗂️ Management
 
-- **Agile Management | Strategic Planning**
+- Agile Management \| Strategic Planning
 
-## Soft Skills
+## 🤝 Soft Skills
 
-- **Leadership | Communication | Risk Management | Cross-functional Teamwork | Problem-Solving | Critical Thinking**
+- Leadership \| Communication \| Risk Management \| Cross-functional Teamwork \| Problem-Solving \| Critical Thinking
