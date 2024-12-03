@@ -20,9 +20,7 @@ author: Luiz Augusto Fidalgo
 ###############################################
 
 navbar-links:
-  Projects:
-    - Context Chatbot: "projects/context-chatbot"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Projects: "projects/projects"
   CV: "downloads/LuizAugustoFidalgo_CV.pdf"
 
 ################
