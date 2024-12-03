@@ -15,4 +15,10 @@ title: Projects
 
 ### IoT
 
-- **[Inventory Control](Inventory-control)** - 📦🔋 Automated inventory management solution developed as part of my Bachelor’s Final Thesis. The project addressed the challenge of managing inventory where traditional power and network infrastructure are impractical due to mobile storage units. 
+- **[Inventory Control](inventory-control)** - 📦🔋 Automated inventory management solution developed as part of my Bachelor’s Final Thesis. The project addressed the challenge of managing inventory where traditional power and network infrastructure are impractical due to mobile storage units.
+
+### Hackathon
+
+- **[DocBe](docbe)** - 🩺🌐 Telemedicine platform prototype connecting doctors, elderly patients, pharmacies, and laboratories to provide adapted healthcare solutions during the COVID-19 pandemic. Selected for the Ideas Bank at the Mega Hack COVID-19 event.
+
+- **[SensorAr](sensorar)** - 🌍🌫️ Innovative platform to monitor and analyze air quality, developed for the NASA International Space Apps Challenge 2019. Secured 4th place by leveraging compact sensors and crowdsourced data from delivery personnel to generate air quality maps and real-time alerts.
