@@ -3,7 +3,6 @@ layout: page
 title: Projects
 ---
 
-## Artificial Intelligence & Machine Learning
+### Artificial Intelligence & Machine Learning
 
-- **[Context Chatbot](context-chatbot)**  
-  Developed a prototype integrating document extraction, storage, and querying. Leveraged **RAG** (Retrieval-Augmented Generation), **FastAPI**, **Docker**, **Qdrant**, and **LlamaIndex**.
+- **[Context Chatbot](context-chatbot)** - An open-source Knowledge-Based LLM Chatbot prototype enabling document processing, storage, and intelligent querying through Retrieval-Augmented Generation (RAG).

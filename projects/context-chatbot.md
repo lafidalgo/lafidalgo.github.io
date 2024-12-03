@@ -4,6 +4,8 @@ title: Context Chatbot
 subtitle: Knowledge-Based LLM Prototype
 ---
 
+You can find the complete open-source project on GitHub: [lafidalgo/context-chatbot](https://github.com/lafidalgo/context-chatbot).
+
 ### Achievements
 
 - Developed a **Knowledge-Based LLM ChatBot prototype**, integrating microservices for document extraction, storage, and querying. Utilized **Retrieval-Augmented Generation (RAG)** to enhance query responses.
@@ -30,6 +32,4 @@ The prototype consists of the following key components:
 - **Streamlit**: For creating a user-friendly interface.
 - **GitHub Actions**: For automating the CI/CD pipeline.
 
-### Explore the Code
-
-You can find the complete project on GitHub: [lafidalgo/context-chatbot](https://github.com/lafidalgo/context-chatbot).
+![Chatbot](projects/assets/context-chatbot/chatbot.png)
