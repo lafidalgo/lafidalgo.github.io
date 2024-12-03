@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Object Detection and Classification
-subtitle: Supermarket Products
+title: Supermarket Products
+subtitle: Object Detection and Classification
 ---
 
 ### Achievements
