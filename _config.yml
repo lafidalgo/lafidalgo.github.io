@@ -21,7 +21,7 @@ author: Luiz Augusto Fidalgo
 
 navbar-links:
   Projects:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Context Chatbot: "projects/context-chatbot.md"
     - Learn markdown: "https://www.markdowntutorial.com/"
   CV: "downloads/LuizAugustoFidalgo_CV.pdf"
 
