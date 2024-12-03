@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Knowledge-Based LLM Prototype - Context Chatbot
-subtitle: Aug 2024 - Aug 2024
+title: Context Chatbot
+subtitle: Knowledge-Based LLM Prototype
 ---
 
 ### Achievements
