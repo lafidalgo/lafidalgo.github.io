@@ -13,3 +13,6 @@ title: Projects
 
 - **[Financial Balances](financial-balances)** - 💼📊 Pipeline to extract financial data from clients' balance sheets using Optical Character Recognition (OCR) and Large Language Models (LLM). The solution was implemented on AWS and Microsoft Azure, optimizing time, cost, and accuracy for a leading insurance company in Brazil.
 
+### IoT
+
+- **[Inventory Control](Inventory-control)** - 📦🔋 Automated inventory management solution developed as part of my Bachelor’s Final Thesis. The project addressed the challenge of managing inventory where traditional power and network infrastructure are impractical due to mobile storage units. 
