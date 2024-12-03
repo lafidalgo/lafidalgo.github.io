@@ -20,7 +20,7 @@ author: Luiz Augusto Fidalgo
 ###############################################
 
 navbar-links:
-  Home: ""
+  Home: "index"
   Projects: "projects"
   Skills: "skills"
   Resume: "downloads/LuizAugustoFidalgo_resume.pdf"
