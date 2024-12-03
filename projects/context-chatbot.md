@@ -32,4 +32,4 @@ The prototype consists of the following key components:
 - **Streamlit**: For creating a user-friendly interface.
 - **GitHub Actions**: For automating the CI/CD pipeline.
 
-![Chatbot](projects/assets/context-chatbot/chatbot.png)
+![Chatbot](assets/context-chatbot/chatbot.png)
