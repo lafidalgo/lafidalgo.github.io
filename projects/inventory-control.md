@@ -4,7 +4,9 @@ title: Inventory Control
 subtitle: Low Power Wireless Sensor
 ---
 
-This was my **Bachelor’s Final Thesis** at the Universidade de Brasília.
+This was my **Bachelor’s Final Thesis** at the University of Brasília.
+
+You can find the full article here (in Portuguese): [Final Thesis](https://drive.google.com/file/d/1Nze9oxfN0Qon8igrcGOa-336x2AxX0GE/view?usp=sharing).
 
 ![Inventory System](assets/inventory-control/scale.png)
 
@@ -18,7 +20,7 @@ This was my **Bachelor’s Final Thesis** at the Universidade de Brasília.
 
 ### Context
 
-This project addressed the challenge of automating inventory management for **utensils at the Mané Mercado complex**, where the mobility of storage units rendered traditional power and network infrastructure impractical. The solution was designed to provide **real-time data access** while being **battery-powered**, ensuring flexibility and ease of use. 
+This project addressed the challenge of automating inventory management for **utensils at a food complex**, where the mobility of storage units rendered traditional power and network infrastructure impractical. The solution was designed to provide **real-time data access** while being **battery-powered**, ensuring flexibility and ease of use. 
 
 The system utilized:
 - **ESP32 microcontroller** for processing and wireless communication.
@@ -33,4 +35,4 @@ The system utilized:
 - **Wireless Communications Systems**: Implemented the ESP-NOW protocol for efficient data transmission.
 - **Software Development**: Developed embedded firmware in **C/C++** for sensor integration and communication.
 - **Cloud Services**: Enabled real-time data access via the cloud.
-- **Debugging Tools**: Ensured reliability through thorough testing and debugging.
+- **Debugging Tools**: Ensured reliability through testing and debugging.

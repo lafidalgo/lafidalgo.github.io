@@ -27,4 +27,4 @@ The key components of the solution include:
 - **OCR**: To extract textual data from scanned documents.
 - **LLM**: For processing and interpreting extracted financial data.
 - **Docker**: To containerize the solution for deployment.
-- **FastAPI**: For developing microservices that handle data extraction and querying.
+- **Flask**: For developing microservices that handle data extraction and querying.
