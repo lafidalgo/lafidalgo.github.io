@@ -10,9 +10,9 @@ Python \| C \| C++
 Pandas \| Numpy \| Scikit-learn \| MLflow \| LangChain \| LLamaIndex \| CrewAi
 
 #### ☁️ Cloud Platforms
-AWS: S3, Lambda, ECR, EKS, SageMaker, DynamoDB
-GCP: Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, GKE
-Azure: Blob Storage, Functions
+AWS: S3, Lambda, ECR, EKS, SageMaker, DynamoDB\n
+GCP: Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, GKE\n
+Azure: Blob Storage, Functions\n
 
 #### 🌐 Web Frameworks
 FastAPI \| Flask \| Streamlit
