@@ -23,7 +23,7 @@ jobs:
 
       - name: Move PDF to downloads folder
         run: |
-          mv cv/LuizAugustoFidalgo_cv_simple.pdf downloads/LuizAugustoFidalgo_cv_simple.pdf
+          mv LuizAugustoFidalgo_cv_simple.pdf downloads/LuizAugustoFidalgo_cv_simple.pdf
 
       - name: Commit and push PDF
         run: |
