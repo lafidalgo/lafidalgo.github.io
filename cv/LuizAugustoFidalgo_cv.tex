@@ -1,0 +1,127 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- Packages ---
+\usepackage[left=0.75in,right=0.75in,top=0.75in,bottom=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato} % Using Lato font for a modern look
+\usepackage{fontawesome5}  % For icons
+\usepackage{hyperref}      % For clickable links
+\usepackage{titlesec}      % For section formatting
+\usepackage{enumitem}      % For list formatting
+\usepackage{xcolor}        % For colors
+\usepackage{graphicx}      % For the profile picture
+\usepackage{wrapfig}       % To wrap text around the image
+
+% --- Colors ---
+\definecolor{darkteal}{RGB}{0, 100, 100} % Matching the green vibe of the photo
+\definecolor{darkgray}{RGB}{70, 70, 70}
+
+% --- Setup ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkteal,
+    filecolor=darkteal,
+    urlcolor=darkteal,
+}
+
+% --- Custom Section formatting ---
+\titleformat{\section}
+{\Large\bfseries\color{darkteal}\uppercase}
+{}{0em}{}[\titlerule]
+
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% --- Macros ---
+\newcommand{\entry}[4]{
+    \noindent \textbf{#1} \hfill #2 \\
+    \textit{#3} \hfill \textit{#4}
+}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{minipage}[c]{0.2\textwidth}
+    % PLACEHOLDER FOR PHOTO: Ensure 'profile.png' exists in the directory
+    % If you do not have the photo, comment out the next line.
+    \includegraphics[width=0.9\textwidth, keepaspectratio]{profile.png} 
+\end{minipage}%
+\begin{minipage}[c]{0.8\textwidth}
+    {\Huge \textbf{LUIZ AUGUSTO FIDALGO}} \\[0.2cm]
+    \faMapMarker* \ Frankfurt, Germany \quad 
+    \faFlag \ Brazilian \& Portuguese \\[0.1cm]
+    \faGlobe \ \href{https://luizfidalgo.com}{luizfidalgo.com} \quad
+    \faEnvelope \ \href{mailto:luiz.fidalgo@hotmail.com}{luiz.fidalgo@hotmail.com} \\[0.1cm]
+    \faLinkedin \ \href{https://linkedin.com/in/luiz-augusto-fidalgo}{luiz-augusto-fidalgo} \quad
+    \faGithub \ \href{https://github.com/lafidalgo}{lafidalgo} \\[0.1cm]
+    \textbf{Languages:} English (C2), German (A2), Portuguese (Native)
+\end{minipage}
+
+\vspace{0.5cm}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Professional Experience}
+
+\entry{Machine Learning Engineer}{Aug 2024 -- Present}
+{Hotmart}{Amsterdam, Netherlands (Remote)}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
+    \item Assisted Data Scientists in deploying machine learning models into production using SageMaker and EKS.
+    \item Developed high-performance APIs for AI applications using LLMs, RAG, and AI agents, optimizing integration and scalability for developers and clients.
+    \item Created automation tools to streamline CI/CD pipelines, utilizing Docker, Kubernetes, and Terraform, significantly improving deployment efficiency and reducing release times.
+    \item Authored RFCs and documentation to standardize workflows and ensure effective project execution.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\entry{Machine Learning Engineer}{Sep 2023 -- Aug 2024}
+{SnowFox AI}{Brasília, Brazil (Remote)}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
+    \item Developed a pipeline to extract information from unstructured documents using OCR, LLMs, and RAG. Achieved human-comparable results with significantly faster processing times.
+    \item Developed and deployed a computer vision solution for high-cardinality object detection and classification, including model training and scalable infrastructure setup using Kubernetes and Docker.
+    \item Integrated state-of-the-art technologies like GPT-4o, SAM, YOLOv8, and other Foundation Models to enhance AI system performance in real-world applications.
+    \item Architected and implemented cloud infrastructure for MLOps across GCP, AWS, and Azure environments.
+\end{itemize}
+
+\vspace{0.3cm}
+
+\entry{Hardware and Software Development Intern}{Mar 2021 -- Dec 2022}
+{GrupoOrion}{Brasília, Brazil}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
+    \item Contributed to the development of 5 IoT sensor prototypes and supported the production, testing, and installation of over 200 units.
+    \item Worked with microcontrollers and microprocessors to develop and optimize hardware solutions.
+    \item Recognized as the company's Outstanding Intern of 2021.
+\end{itemize}
+
+% --- EDUCATION ---
+\section{Education}
+
+\entry{Bachelor of Electrical Engineering}{Mar 2018 -- Feb 2024}
+{University of Brasília (UnB)}{Brasília, Brazil}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
+    \item Graduated with honors as the Outstanding Student of my class.
+\end{itemize}
+
+\vspace{0.2cm}
+
+\entry{International Sandwich Program}{Feb 2023 -- Aug 2023}
+{University of Rome Tor Vergata}{Rome, Italy}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
+    \item Attended master's level courses in Artificial Intelligence, IoT, and VLSI.
+\end{itemize}
+
+% --- SKILLS ---
+\section{Skills}
+
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=0pt, label={}]
+    \item \textbf{Programming Languages:} Python, C, C++
+    \item \textbf{AI \& ML:} Pandas, Numpy, scikit-learn, TensorFlow, PyTorch, MLflow
+    \item \textbf{LLM, RAG \& AI Agents:} LangChain, LlamaIndex, CrewAI
+    \item \textbf{AWS:} S3, Lambda, ECR, EKS, SageMaker, Textract, DynamoDB, SQS
+    \item \textbf{GCP:} Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, AutoML, GKE
+    \item \textbf{DevOps:} Docker, Terraform, Kubernetes, CI/CD, GitHub Actions
+    \item \textbf{Web Frameworks:} FastAPI, Flask, Streamlit
+    \item \textbf{Data Visualization:} Matplotlib, Plotly
+    \item \textbf{Soft Skills:} Leadership, Communication, Cross-functional Teamwork, Problem-Solving, Critical Thinking
+\end{itemize}
+
+\end{document}

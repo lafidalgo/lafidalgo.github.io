@@ -1,17 +1,23 @@
 # CV LaTeX Source
 
-This directory contains the LaTeX source code for Luiz Augusto Fidalgo's CV.
+This directory contains the LaTeX source code for Luiz Augusto Fidalgo's CVs.
+
+## Files
+
+- `LuizAugustoFidalgo_cv_simple.tex` - Simple one-page CV
+- `LuizAugustoFidalgo_cv.tex` - Full CV with profile picture
+- `profile.png` - Profile picture for the full CV
 
 ## Automated Workflow
 
-The CV is automatically compiled to PDF using GitHub Actions whenever changes are pushed to this directory.
+Both CVs are automatically compiled to PDF using GitHub Actions whenever changes are pushed to this directory.
 
 ### How it works:
 
-1. **Edit**: Make changes to `LuizAugustoFidalgo_cv_simple.tex`
+1. **Edit**: Make changes to either `.tex` file
 2. **Commit & Push**: Push your changes to GitHub
-3. **Auto-compile**: GitHub Actions automatically compiles the LaTeX to PDF
-4. **Auto-update**: The compiled PDF is automatically committed to `downloads/LuizAugustoFidalgo_cv_simple.pdf`
+3. **Auto-compile**: GitHub Actions automatically compiles both LaTeX files to PDF
+4. **Auto-update**: The compiled PDFs are automatically committed to the `downloads/` folder
 
 ### Workflow file:
 

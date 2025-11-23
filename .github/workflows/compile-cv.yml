@@ -15,19 +15,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Compile LaTeX document
+      - name: Compile simple CV
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/LuizAugustoFidalgo_cv_simple.tex
           args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
 
-      - name: Move PDF to downloads folder
+      - name: Move simple CV PDF to downloads folder
         run: |
           mv LuizAugustoFidalgo_cv_simple.pdf downloads/LuizAugustoFidalgo_cv_simple.pdf
 
-      - name: Commit and push PDF
+      - name: Compile full CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/LuizAugustoFidalgo_cv.tex
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Move full CV PDF to downloads folder
+        run: |
+          mv LuizAugustoFidalgo_cv.pdf downloads/LuizAugustoFidalgo_cv.pdf
+
+      - name: Commit and push PDFs
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add downloads/LuizAugustoFidalgo_cv_simple.pdf
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update CV PDF [skip ci]" && git push)
+          git add downloads/LuizAugustoFidalgo_cv_simple.pdf downloads/LuizAugustoFidalgo_cv.pdf
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update CV PDFs [skip ci]" && git push)
