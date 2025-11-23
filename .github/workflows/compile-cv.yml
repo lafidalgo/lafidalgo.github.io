@@ -1,0 +1,33 @@
+name: Compile LaTeX CV
+
+on:
+  push:
+    paths:
+      - 'cv/**'
+      - '.github/workflows/compile-cv.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/LuizAugustoFidalgo_cv_simple.tex
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Move PDF to downloads folder
+        run: |
+          mv cv/LuizAugustoFidalgo_cv_simple.pdf downloads/LuizAugustoFidalgo_cv_simple.pdf
+
+      - name: Commit and push PDF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add downloads/LuizAugustoFidalgo_cv_simple.pdf
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update CV PDF [skip ci]" && git push)
