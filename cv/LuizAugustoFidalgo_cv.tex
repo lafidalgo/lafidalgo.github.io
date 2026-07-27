@@ -13,6 +13,10 @@
 \usepackage{graphicx}      % For the profile picture
 \usepackage{wrapfig}       % To wrap text around the image
 
+% --- ATS: make text (ligatures, accents) extract cleanly from the PDF ---
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 % --- Colors ---
 \definecolor{darkteal}{RGB}{0, 100, 100} % Matching the green vibe of the photo
 \definecolor{darkgray}{RGB}{70, 70, 70}
@@ -49,7 +53,7 @@
 \begin{minipage}[c]{0.8\textwidth}
     {\Huge \textbf{LUIZ AUGUSTO FIDALGO}} \\[0.2cm]
     % Row 1: Location and Nationality
-    Frankfurt, Germany --- open to relocating \ \textbar\ \textbf{Nationality:} Portuguese (EU Citizen) \& Brazilian \\[0.1cm]
+    Frankfurt, Germany - open to relocating \ \textbar\ \textbf{Nationality:} Portuguese (EU Citizen) \& Brazilian \\[0.1cm]
     % Row 2: Email and Phone
     \href{mailto:luiz.fidalgo@hotmail.com}{luiz.fidalgo@hotmail.com} \ \textbar\ +49 15679 592599 \\[0.1cm]
     % Row 3: Socials (Website, LinkedIn, GitHub)
@@ -67,15 +71,15 @@ Machine Learning Engineer with 3 years of experience building production LLM, RA
 % --- EDUCATION ---
 \section{Education \& Certifications}
 
-\entry{Bachelor of Electrical Engineering (with Highest Honors)}{Mar 2018 -- Feb 2024}
-{University of Brasília}{Brasília, Brazil}
+\entry{Bachelor of Electrical Engineering (with Highest Honors)}{Mar 2018 - Feb 2024}
+{University of Brasilia}{Brasilia, Brazil}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Ranked 1st among all graduating Electrical Engineering students
 \end{itemize}
 
 \vspace{0.2cm}
 
-\entry{International Exchange Program (ICT, Internet \& Mechatronics Engineering)}{Feb 2023 -- Aug 2023}
+\entry{International Exchange Program (ICT, Internet \& Mechatronics Engineering)}{Feb 2023 - Aug 2023}
 {University of Rome Tor Vergata}{Rome, Italy}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Completed master's-level coursework in Artificial Intelligence and Internet of Things (IoT)
@@ -83,14 +87,14 @@ Machine Learning Engineer with 3 years of experience building production LLM, RA
 
 \vspace{0.2cm}
 
-\entry{AWS Certified Machine Learning Engineer -- Associate}{Feb 2026}
+\entry{AWS Certified Machine Learning Engineer - Associate}{Feb 2026}
 {Amazon Web Services}{\href{https://www.credly.com/badges/2b4fec6e-76c6-424b-845f-84f9a6a9c0e5/}{Verify}}
 
 % --- PROFESSIONAL EXPERIENCE ---
 \section{Professional Experience}
 
-\entry{Machine Learning Engineer}{Feb 2025 -- Present}
-{ada Learning (corporate AI upskilling / EdTech)}{Düsseldorf, Germany}
+\entry{Machine Learning Engineer}{Feb 2025 - Present}
+{ada Learning (corporate AI upskilling / EdTech)}{Dusseldorf, Germany}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Developing an EU-hosted, no-code AI-agent platform across infrastructure, backend (Python/FastAPI), and frontend (SvelteKit)
     \item Built multi-agent orchestration on CrewAI, provider-agnostic LLM access via LiteLLM (OpenAI, Anthropic, Bedrock), RAG, tool-calling (web search, image generation), and agentic-workflow evaluation
@@ -99,8 +103,8 @@ Machine Learning Engineer with 3 years of experience building production LLM, RA
 
 \vspace{0.2cm}
 
-\entry{Machine Learning Engineer}{Aug 2024 -- Jan 2025}
-{Hotmart (Brazilian digital-products platform, 30M+ users)}{Brasília, Brazil}
+\entry{Machine Learning Engineer}{Aug 2024 - Jan 2025}
+{Hotmart (Brazilian digital-products platform, 30M+ users)}{Brasilia, Brazil}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Developed async API using LlamaIndex, sustaining 300+ requests/second of LLM, RAG, and agent traffic, enabling data scientists to run high-concurrency inference across the platform
     \item Load-tested the API with Locust to configure a cost-efficient horizontal-scaling strategy on smaller instances
@@ -109,8 +113,8 @@ Machine Learning Engineer with 3 years of experience building production LLM, RA
 
 \vspace{0.2cm}
 
-\entry{Machine Learning Engineer}{Sep 2023 -- Aug 2024}
-{snowfoxAI (AI consultancy)}{Brasília, Brazil}
+\entry{Machine Learning Engineer}{Sep 2023 - Aug 2024}
+{snowfoxAI (AI consultancy)}{Brasilia, Brazil}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Developed document extraction pipeline for an insurance client using OCR, LLMs, and RAG, achieving 97\% accuracy while reducing per-document processing time from 3 minutes to 30 seconds (deployed on AWS)
     \item Built retail computer vision system detecting and classifying 150+ products per image (YOLOv8, SAM), with model training on Vertex AI and scalable deployment on Google Kubernetes Engine (GKE)
@@ -119,8 +123,8 @@ Machine Learning Engineer with 3 years of experience building production LLM, RA
 
 \vspace{0.2cm}
 
-\entry{IoT Development Intern}{Mar 2021 -- Dec 2022}
-{GrupoOrion}{Brasília, Brazil}
+\entry{IoT Development Intern}{Mar 2021 - Dec 2022}
+{GrupoOrion}{Brasilia, Brazil}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=1.5em]
     \item Developed 5 IoT sensor prototypes measuring environmental factors (sound, smell, weight, people counting)
     \item Produced, tested, and deployed 200+ sensor units from prototype to production
