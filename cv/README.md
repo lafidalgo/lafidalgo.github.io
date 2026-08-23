@@ -6,7 +6,7 @@ This directory contains the LaTeX source code for Luiz Augusto Fidalgo's CVs.
 
 - `LuizAugustoFidalgo_cv_simple.tex` - Simple one-page CV
 - `LuizAugustoFidalgo_cv.tex` - Full CV with profile picture
-- `profile.png` - Profile picture for the full CV
+- `profile.jpeg` - Profile picture for the full CV
 
 ## Automated Workflow
 
