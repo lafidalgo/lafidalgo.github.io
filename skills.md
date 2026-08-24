@@ -4,29 +4,24 @@ title: Skills
 ---
 
 💻 **Programming Languages**  
-Python \| C \| C++
+Python \| C \| C++ \| TypeScript \| SQL
 
-🧠 **AI & ML Tools**  
-Pandas \| Numpy \| Scikit-learn \| TensorFlow \| PyTorch \| MLflow  
+🤖 **GenAI & LLM**  
+CrewAI \| LlamaIndex \| LiteLLM \| LangChain \| RAG \| Qdrant \| MCP \| Langfuse
 
-🤖 **LLM, RAG & AI Agents Frameworks**  
-LangChain \| LLamaIndex \| CrewAi  
+🧠 **ML & Computer Vision**  
+PyTorch \| scikit-learn \| pandas \| NumPy \| YOLOv8 \| SAM \| OCR (Tesseract)
 
 ☁️ **Cloud Platforms**  
-**AWS:** S3, Lambda, ECR, EKS, SageMaker, Textract, DynamoDB, SQS  
-**GCP:** Cloud Storage, Cloud Functions, Cloud Run, Vertex AI, AutoML, GKE  
+**AWS:** Bedrock, SageMaker, EKS, Lambda, SQS, S3, Textract  
+**GCP:** Vertex AI, GKE  
+**Azure**
 
-🔧 **DevOps & Infrastructure**  
-Docker \| Terraform \| Kubernetes \| CI/CD \| GitHub Actions  
+🔧 **DevOps & Observability**  
+Docker \| Kubernetes \| Terraform \| CI/CD (GitHub Actions) \| pytest \| Locust \| New Relic
 
 🌐 **Web Frameworks**  
-FastAPI \| Flask \| Streamlit  
+FastAPI \| Flask \| Streamlit \| SvelteKit
 
-📊 **Data Visualization**  
-Matplotlib \| Plotly  
-
-🗂️ **Management**  
-Agile Management \| Strategic Planning  
-
-🤝 **Soft Skills**  
-Leadership \| Communication \| Cross-functional Teamwork \| Problem-Solving \| Critical Thinking  
+🗂️ **Databases**  
+PostgreSQL \| MongoDB \| DynamoDB
